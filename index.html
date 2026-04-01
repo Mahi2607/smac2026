@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMAC 2026 | International Conference on Smart Media, AI and Emerging Communications</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== CIRCUIT LINES BG (decorative) ===== -->
+  <div class="circuit-bg" aria-hidden="true">
+    <svg class="circuit-svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <line x1="0" y1="200" x2="400" y2="200" stroke="rgba(200,130,255,0.12)" stroke-width="1"/>
+      <line x1="400" y1="200" x2="400" y2="500" stroke="rgba(200,130,255,0.12)" stroke-width="1"/>
+      <circle cx="400" cy="200" r="4" fill="rgba(200,130,255,0.25)"/>
+      <line x1="1000" y1="0" x2="1000" y2="350" stroke="rgba(200,130,255,0.10)" stroke-width="1"/>
+      <line x1="1000" y1="350" x2="1440" y2="350" stroke="rgba(200,130,255,0.10)" stroke-width="1"/>
+      <circle cx="1000" cy="350" r="4" fill="rgba(200,130,255,0.25)"/>
+      <line x1="200" y1="700" x2="700" y2="700" stroke="rgba(200,130,255,0.08)" stroke-width="1"/>
+      <circle cx="700" cy="700" r="3" fill="rgba(200,130,255,0.2)"/>
+    </svg>
+  </div>
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span><i class="fas fa-calendar-alt"></i> 2nd – 3rd July 2026</span>
+      <span><i class="fas fa-map-marker-alt"></i> Amity University Mumbai, Maharashtra, India</span>
+      <span><i class="fas fa-book-open"></i> Publication: Atlantis Academic Press (Springer Nature)</span>
+    </div>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <div class="logo-group">
+        <!-- LEFT: Amity Logo -->
+        <img src="https://www.amity.edu/mumbai/icract2025/images/logo.png" alt="Amity University Mumbai" class="logo-img" id="amity-logo" />
+
+        <div class="header-text">
+          <span class="header-tag">Amity School of Communication &bull; Amity University Mumbai &bull; Presents</span>
+          <h1 class="conf-title">SMAC 2026</h1>
+          <p class="conf-subtitle">International Conference on Smart Media, AI and Emerging Communications</p>
+        </div>
+
+        <!-- RIGHT: Partner logos -->
+        <div class="partner-logos">
+          <img src="images/iqac-logo.png" alt="IQAC" class="logo-img small" id="iqac-logo" />
+          <img src="https://www.amity.edu/mumbai/icract2025/images/springerlogo.png" alt="Springer" class="logo-img small" id="springer-logo" />
+          <img src="images/iic-logo.png" alt="IIC" class="logo-img small" id="iic-logo" />
+        </div>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home"          class="nav-link active">Home</a></li>
+          <li><a href="#about"         class="nav-link">About</a></li>
+          <li><a href="#committee"     class="nav-link">Committee</a></li>
+          <li><a href="#callforpapers" class="nav-link">Call for Papers</a></li>
+          <li><a href="#subthemes"     class="nav-link">Sub-Themes</a></li>
+          <li><a href="#submission"    class="nav-link">Submission</a></li>
+          <li><a href="#publication"   class="nav-link">Publication</a></li>
+          <!-- <li><a href="#registration"  class="nav-link">Registration</a></li> -->
+          <li><a href="#contact"       class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <img src="images/hero-bg.jpg" alt="Hero Background" class="hero-bg-img" id="hero-bg-img" />
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-robot"></i>&nbsp; Hybrid Conference &nbsp;|&nbsp; Offline + Online
+      </div>
+
+      <h2 class="hero-heading">
+        International Conference on<br />
+        <span class="hero-highlight">Smart Media, AI</span><br />
+        and Emerging Communications
+      </h2>
+      <div class="hero-acronym">[SMAC 2026]<span class="arrow-icon">↗</span></div>
+
+      <p class="hero-theme">
+        <i class="fas fa-quote-left"></i>&nbsp;
+        Reimagining Media, Communication and Society in the Age of Artificial Intelligence
+        &nbsp;<i class="fas fa-quote-right"></i>
+      </p>
+
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <i class="fas fa-calendar-alt"></i>
+          <div><strong>2nd – 3rd July 2026</strong><span>Conference Dates</span></div>
+        </div>
+        <div class="hero-meta-divider"></div>
+        <div class="hero-meta-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div><strong>Amity University Mumbai</strong><span>Maharashtra, India</span></div>
+        </div>
+      </div>
+
+      <div class="hero-btns">
+        <a href="#callforpapers" class="btn btn-primary">
+          <i class="fas fa-paper-plane"></i> Submit Paper
+        </a>
+        <a href="#registration" class="btn btn-outline">
+          <i class="fas fa-id-card"></i> Register Now
+        </a>
+        <a href="#subthemes" class="btn btn-ghost">
+          <i class="fas fa-list-ul"></i> View Sub-Themes
+        </a>
+      </div>
+
+      <!-- COUNTDOWN -->
+      <div class="countdown" id="countdown">
+        <div class="count-box"><span id="days">00</span><label>Days</label></div>
+        <div class="count-box"><span id="hours">00</span><label>Hours</label></div>
+        <div class="count-box"><span id="minutes">00</span><label>Minutes</label></div>
+        <div class="count-box"><span id="seconds">00</span><label>Seconds</label></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PARTNER STRIP ===== -->
+  <div class="partner-strip">
+    <div class="container partner-strip-inner">
+      <div class="partner-item">
+        <span class="partner-label">Publication Partner</span>
+        <strong>Atlantis Academic Press (Springer Nature)</strong>
+      </div>
+      <div class="partner-divider"></div>
+      <div class="partner-item">
+        <span class="partner-label">Academic Partners</span>
+        <strong>Towson University, Maryland, USA</strong>
+      </div>
+      <div class="partner-divider"></div>
+      <div class="partner-item">
+        <span class="partner-label">Academic Partner</span>
+        <strong>Grand Valley State University</strong>
+      </div>
+      <div class="partner-divider"></div>
+      <div class="partner-item">
+        <span class="partner-label">Indexed In</span>
+        <strong>Scopus &bull; Web of Science CPCI</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About the Conference</h2>
+      <p class="section-sub">Exploring the Future of Smart Media, Artificial Intelligence, Digital Storytelling and Emerging Communication Technologies</p>
+
+      <div class="about-grid">
+        <div class="about-block">
+          <h3 class="about-sub-h"><i class="fas fa-university"></i> About Amity University Mumbai</h3>
+          <p>
+            <strong>Amity University Mumbai</strong> stands as one of the leading private universities in India's higher
+            education landscape, known for its strong commitment to academic excellence, innovation, research, and
+            industry-oriented learning. Established as part of the Amity Education Group, the university carries forward
+            a legacy of building globally relevant institutions that combine rigorous academic training with professional readiness.
+          </p>
+          <p>
+            Amity University Mumbai represents a modern, ambitious, and academically dynamic institution committed to
+            nurturing future-ready graduates, advancing interdisciplinary scholarship, and creating meaningful impact through
+            education — making it an inspiring host for SMAC 2026.
+          </p>
+        </div>
+
+        <div class="about-block highlight-block">
+          <h3 class="about-sub-h"><i class="fas fa-broadcast-tower"></i> About Amity School of Communication</h3>
+          <p>
+            <strong>Amity School of Communication, Amity University Mumbai</strong> is a dynamic academic space dedicated to
+            advancing excellence in media education, communication research, creative practice, and industry engagement.
+            It has emerged as an important centre for developing future media professionals, communication scholars, storytellers,
+            and digital innovators.
+          </p>
+          <p>
+            As the organizing institution of SMAC 2026, Amity School of Communication is well positioned to host a scholarly
+            platform bringing together discussions on AI, smart media systems, digital storytelling, emerging pedagogies, and
+            the future of communication.
+          </p>
+        </div>
+      </div>
+
+      <!-- CONFERENCE THEME BOX -->
+      <div class="theme-box">
+        <div class="theme-box-icon"><i class="fas fa-lightbulb"></i></div>
+        <div>
+          <h3>Conference Theme</h3>
+          <p class="theme-quote">"Reimagining Media, Communication and Society in the Age of Artificial Intelligence"</p>
+          <p>
+            SMAC 2026 explores the rapidly transforming landscape of media, communication, and digital culture in an era
+            shaped by AI and intelligent technologies. As media ecosystems evolve through algorithmic platforms, generative AI,
+            immersive storytelling, data-driven communication, and automated content systems, the boundaries between technology,
+            creativity, and communication practices are being fundamentally redefined.
+          </p>
+          <p>
+            Bringing together scholars, researchers, practitioners, and students, SMAC 2026 aims to foster critical conversations
+            on innovation, ethics, governance, and the societal implications of AI-driven communication systems.
+          </p>
+        </div>
+      </div>
+
+      <!-- AIM BOX -->
+      <div class="aim-box">
+        <h3><i class="fas fa-bullseye"></i> Aim of the Conference</h3>
+        <p>
+          SMAC 2026 aims to create an interdisciplinary platform to critically examine the transformative role of artificial
+          intelligence and emerging technologies in reshaping media and communication landscapes. The conference seeks to
+          encourage scholarly dialogue on opportunities, challenges, and ethical implications of these transformations.
+        </p>
+        <p>
+          SMAC 2026 aspires to promote research at the intersections of smart media technologies, digital storytelling,
+          communication innovation, media governance, and audience engagement — fostering collaboration between academia
+          and industry to advance critical thinking and responsible innovation.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMMITTEE ===== -->
+  <section class="section bg-purple-light" id="committee">
+    <div class="container">
+      <h2 class="section-title">Organizing Committee</h2>
+
+      <!-- CHIEF PATRON & PATRON -->
+      <div class="committee-level">
+        <h3 class="committee-level-title">Chief Patron</h3>
+        <div class="committee-row centered">
+          <div class="committee-person-card patron-card">
+            <div class="committee-person-img-wrap">
+              <!-- Replace with Dr. Aseem Chauhan's photo -->
+              <img src="https://www.amity.edu/mumbai/icract2025/images/aseem-chauhan.png" alt="Dr. Aseem Chauhan" id="chief-patron-img" />
+            </div>
+            <h4>Dr. Aseem Chauhan</h4>
+            <p class="role">Hon'ble President and Chancellor</p>
+            <p class="org">Amity University Mumbai</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="committee-level">
+        <h3 class="committee-level-title">Patron</h3>
+        <div class="committee-row centered">
+          <div class="committee-person-card patron-card">
+            <div class="committee-person-img-wrap">
+              <!-- Replace with Dr. A.W. Santhosh Kumar's photo -->
+              <img src="https://www.amity.edu/mumbai/icract2025/images/santhosh-kumar.png" alt="Prof. Dr. A.W. Santhosh Kumar" id="patron-img" />
+            </div>
+            <h4>(Prof.) Dr. A.W. Santhosh Kumar</h4>
+            <p class="role">Hon'ble Vice Chancellor</p>
+            <p class="org">Amity University Mumbai</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONVENER -->
+      <div class="committee-level">
+        <h3 class="committee-level-title">Convener</h3>
+        <div class="committee-row centered">
+          <div class="committee-person-card convener-card">
+            <div class="committee-person-img-wrap">
+              <!-- Replace with Prof. Rajesh Sisodia's photo -->
+              <img src="https://portal.amity.edu/backoffice//Uploads/Faculty/63312b44b559-a104-4cb3-bb0a-d658a09de09c.jpeg" alt="Prof. Rajesh Sisodia" id="convener-img" />
+            </div>
+            <h4>Prof. Rajesh Sisodia</h4>
+            <p class="role">Director/Head of Institution</p>
+            <p class="org">Amity School of Communication &amp; Amity Film School Mumbai</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CO-CONVENER -->
+      <div class="committee-level">
+        <h3 class="committee-level-title">Co-Convener</h3>
+        <div class="committee-row centered">
+          <div class="committee-person-card">
+            <div class="committee-person-img-wrap small-img">
+              <img src="https://portal.amity.edu/backoffice//Uploads/Faculty/6539ArchanMitraphoto.jpeg" alt="Dr. Archan Mitra" id="co-convener-img" />
+            </div>
+            <h4>Dr. Archan Mitra</h4>
+            <p class="role">Co-Convener, SMAC 2026</p>
+            <p class="org">Amity School of Communication</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FACULTY COORDINATORS -->
+      <!-- <div class="committee-level">
+        <h3 class="committee-level-title">Faculty Coordinators</h3>
+        <div class="committee-row centered">
+          <div class="committee-person-card">
+            <div class="committee-person-img-wrap small-img">
+              <img src="images/supratim-mukherjee.jpg" alt="Mr. Supratim Mukherjee" id="coord1-img" />
+            </div>
+            <h4>Mr. Supratim Mukherjee</h4>
+            <p class="role">Faculty Coordinator</p>
+            <p class="org">Amity School of Communication</p>
+          </div>
+          <div class="committee-person-card">
+            <div class="committee-person-img-wrap small-img">
+              <img src="images/dr-vaishali-panda.jpg" alt="Dr. Vaishali Panda" id="coord2-img" />
+            </div>
+            <h4>Dr. Vaishali Panda</h4>
+            <p class="role">Faculty Coordinator</p>
+            <p class="org">Amity School of Communication</p>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- ADVISORY BOARD -->
+      <div class="committee-level">
+        <h3 class="committee-level-title">Advisory Board</h3>
+        <div class="advisory-list">
+          <div class="advisory-item">
+            <i class="fas fa-user-tie"></i>
+            <div>
+              <strong>Dr. H.S. Vyas</strong>
+              <span>Registrar, Amity University Mumbai</span>
+            </div>
+          </div>
+          <div class="advisory-item">
+            <i class="fas fa-user-tie"></i>
+            <div>
+              <strong>Dr. Penna Suprasanna</strong>
+              <span>Dean Research, Amity University Mumbai</span>
+            </div>
+          </div>
+          <div class="advisory-item">
+            <i class="fas fa-user-tie"></i>
+            <div>
+              <strong>Dr. Gigimon VS</strong>
+              <span>Dean Academics, Amity University Mumbai</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACADEMIC PARTNERS -->
+      <div class="committee-level">
+        <h3 class="committee-level-title">Academic Partners</h3>
+        <div class="partner-cards-row">
+          <div class="partner-card-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Towson_University_logo_horiz_2019.png" alt="Towson University" id="towson-logo" />
+            <h4>Towson University</h4>
+            <p>Maryland, USA</p>
+          </div>
+          <div class="partner-card-item">
+            <img src="https://www.gvsu.edu/cms5/asset/f3659023-9379-48c3-a2dd-98bb0da0b930/c450f4f9-8c66-4c27-a358-3756dc8d6cdb/sizes/2000[1758571480].jpg" alt="Grand Valley State University" id="gvsu-logo" />
+            <h4>Grand Valley State University</h4>
+            <p>United States of America</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CALL FOR PAPERS ===== -->
+  <section class="section" id="callforpapers">
+    <div class="container">
+      <h2 class="section-title">Call for Papers</h2>
+      <p class="section-sub">Original research papers, extended abstracts, and case studies are invited</p>
+
+      <div class="cfp-intro-box">
+        <div class="cfp-intro-icon"><i class="fas fa-file-alt"></i></div>
+        <div>
+          <p>
+            SMAC 2026 invites contributions from scholars, researchers, faculty members, industry professionals, and students
+            exploring the evolving intersections of media, communication, artificial intelligence, and emerging technologies.
+            The conference seeks submissions examining innovative theoretical perspectives, empirical research, and practical
+            insights related to smart media systems, digital storytelling, AI-driven communication, media innovation, platform
+            cultures, and the societal implications of emerging communication technologies.
+          </p>
+          <p>
+            All submissions will undergo a <strong>peer review process</strong> to ensure academic quality. Accepted papers will
+            be presented at the conference, and selected submissions may be considered for publication through the conference's
+            publication partner, <strong>Atlantis Academic Press (Springer Nature)</strong>.
+          </p>
+          <div class="cfp-highlight-row">
+            <div class="cfp-chip"><i class="fas fa-check-circle"></i> Peer Reviewed</div>
+            <div class="cfp-chip"><i class="fas fa-check-circle"></i> Scopus Indexed</div>
+            <div class="cfp-chip"><i class="fas fa-check-circle"></i> Web of Science CPCI</div>
+            <div class="cfp-chip"><i class="fas fa-check-circle"></i> Double-Blind Review</div>
+            <div class="cfp-chip"><i class="fas fa-check-circle"></i> APA References</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SUB-THEMES ===== -->
+  <section class="section bg-purple-light" id="subthemes">
+    <div class="container">
+      <h2 class="section-title">Conference Sub-Themes</h2>
+      <p class="section-sub">Research contributions invited across 8 interdisciplinary areas</p>
+
+      <div class="themes-grid">
+
+        <div class="theme-card">
+          <div class="theme-num">01</div>
+          <div class="theme-icon"><i class="fas fa-brain"></i></div>
+          <h3>Artificial Intelligence and Smart Media Ecosystems</h3>
+          <ul>
+            <li>AI in news production, journalism automation &amp; editorial workflows</li>
+            <li>Generative AI and media content creation</li>
+            <li>Algorithmic media platforms and information ecosystems</li>
+            <li>AI-assisted storytelling and intelligent content systems</li>
+            <li>Data-driven media production and automated communication</li>
+            <li>AI ethics and accountability in media technologies</li>
+          </ul>
+        </div>
+
+        <div class="theme-card">
+          <div class="theme-num">02</div>
+          <div class="theme-icon"><i class="fas fa-newspaper"></i></div>
+          <h3>Digital Journalism and the Future of News</h3>
+          <ul>
+            <li>AI-assisted journalism and newsroom automation</li>
+            <li>Algorithmic news distribution and platform governance</li>
+            <li>Fact-checking technologies and misinformation detection</li>
+            <li>Data journalism and computational storytelling</li>
+            <li>Trust, credibility, and transparency in AI-mediated news</li>
+            <li>Journalism innovation in the age of intelligent systems</li>
+          </ul>
+        </div>
+
+        <div class="theme-card">
+          <div class="theme-num">03</div>
+          <div class="theme-icon"><i class="fas fa-vr-cardboard"></i></div>
+          <h3>Smart Media Technologies and Immersive Communication</h3>
+          <ul>
+            <li>Virtual reality, augmented reality &amp; immersive storytelling</li>
+            <li>Metaverse communication environments and media experiences</li>
+            <li>Interactive media technologies and audience participation</li>
+            <li>AI-driven visual communication and creative production</li>
+            <li>Digital cinematography and intelligent media tools</li>
+            <li>Emerging media interfaces and experiential communication</li>
+          </ul>
+        </div>
+
+        <div class="theme-card">
+          <div class="theme-num">04</div>
+          <div class="theme-icon"><i class="fas fa-hashtag"></i></div>
+          <h3>AI, Digital Culture and Platform Communication</h3>
+          <ul>
+            <li>Social media algorithms and digital public discourse</li>
+            <li>Influencer economies and platform-driven communication cultures</li>
+            <li>Meme cultures, digital narratives, and online communities</li>
+            <li>Algorithmic visibility and digital attention economies</li>
+            <li>Platform governance, regulation &amp; communication ethics</li>
+            <li>Digital identity, representation &amp; participatory cultures</li>
+          </ul>
+        </div>
+
+        <div class="theme-card">
+          <div class="theme-num">05</div>
+          <div class="theme-icon"><i class="fas fa-bullhorn"></i></div>
+          <h3>Strategic Communication, Advertising and AI</h3>
+          <ul>
+            <li>AI-driven advertising and generative marketing content</li>
+            <li>Personalized communication and audience analytics</li>
+            <li>AI in public relations, reputation &amp; crisis communication</li>
+            <li>Programmatic advertising and data-driven brand communication</li>
+            <li>Neuromarketing, sentiment analysis &amp; consumer communication</li>
+            <li>Ethical implications of AI in persuasive communication</li>
+          </ul>
+        </div>
+
+        <div class="theme-card">
+          <div class="theme-num">06</div>
+          <div class="theme-icon"><i class="fas fa-balance-scale"></i></div>
+          <h3>Communication, Society and Algorithmic Governance</h3>
+          <ul>
+            <li>AI governance and the future of digital communication regulation</li>
+            <li>Media policy, digital rights, and information governance</li>
+            <li>Communication ethics in automated information environments</li>
+            <li>Algorithmic bias, representation &amp; digital inequality</li>
+            <li>Communication for development in AI-enabled societies</li>
+            <li>Media literacy and critical digital awareness</li>
+          </ul>
+        </div>
+
+        <div class="theme-card">
+          <div class="theme-num">07</div>
+          <div class="theme-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h3>AI in Media Education and Emerging Pedagogies</h3>
+          <ul>
+            <li>AI-integrated communication and media education</li>
+            <li>Smart classrooms and digital learning ecosystems</li>
+            <li>Teaching journalism and media practice in the AI era</li>
+            <li>AI tools in media research and academic production</li>
+            <li>Future skills for communication professionals</li>
+            <li>Pedagogical innovation in media and communication studies</li>
+          </ul>
+        </div>
+
+        <div class="theme-card">
+          <div class="theme-num">08</div>
+          <div class="theme-icon"><i class="fas fa-globe-asia"></i></div>
+          <h3>Smart Media, Global Communication and Emerging Technologies</h3>
+          <ul>
+            <li>AI and global communication networks</li>
+            <li>Digital diplomacy and international communication flows</li>
+            <li>Cross-cultural communication in algorithmic media environments</li>
+            <li>AI and global information ecosystems</li>
+            <li>Emerging technologies shaping the future of communication</li>
+            <li>Communication innovation in the Global South</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SUBMISSION GUIDELINES ===== -->
+  <section class="section" id="submission">
+    <div class="container">
+      <h2 class="section-title">Guidelines for Submission</h2>
+      <p class="section-sub">Authors are invited to submit original and unpublished research papers</p>
+
+      <div class="submission-grid">
+        <!-- LEFT: RULES -->
+        <div class="submission-rules">
+          <h3><i class="fas fa-file-alt"></i> Manuscript Preparation</h3>
+          <div class="rule-item">
+            <div class="rule-icon"><i class="fas fa-file-word"></i></div>
+            <div>
+              <strong>Template</strong>
+              <p>Papers must be prepared using the official conference template (Word or LaTeX).</p>
+            </div>
+          </div>
+          <div class="rule-item">
+            <div class="rule-icon"><i class="fas fa-align-left"></i></div>
+            <div>
+              <strong>Structure</strong>
+              <p>Title → Author Info → Abstract → Keywords → Introduction → Literature Review → Methodology → Analysis/Discussion → Conclusion → References</p>
+            </div>
+          </div>
+          <div class="rule-item">
+            <div class="rule-icon"><i class="fas fa-users"></i></div>
+            <div>
+              <strong>Authors</strong>
+              <p>Names, affiliations, city, country and corresponding author's email must be listed below the title.</p>
+            </div>
+          </div>
+          <div class="rule-item">
+            <div class="rule-icon"><i class="fas fa-paragraph"></i></div>
+            <div>
+              <strong>Abstract &amp; Keywords</strong>
+              <p>Abstract: 150–250 words. Followed by 4–6 keywords.</p>
+            </div>
+          </div>
+          <div class="rule-item">
+            <div class="rule-icon"><i class="fas fa-file-alt"></i></div>
+            <div>
+              <strong>Length</strong>
+              <p>Maximum 10–12 pages including references.</p>
+            </div>
+          </div>
+          <div class="rule-item">
+            <div class="rule-icon"><i class="fas fa-book"></i></div>
+            <div>
+              <strong>References</strong>
+              <p>APA standard format.</p>
+            </div>
+          </div>
+          <div class="rule-item">
+            <div class="rule-icon"><i class="fas fa-globe"></i></div>
+            <div>
+              <strong>Language</strong>
+              <p>Clear academic English. Must not be under consideration for publication elsewhere.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: SUBMIT BOX -->
+        <div class="submission-action">
+          <div class="submit-action-card">
+            <div class="submit-action-icon"><i class="fas fa-paper-plane"></i></div>
+            <h3>Submit Your Paper</h3>
+            <p>Send your manuscript to the conference email. Full submission details will be shared on the official Google Form.</p>
+            <div class="submit-email-box">
+              <i class="fas fa-envelope"></i>
+              <span>Conference Email (to be updated)</span>
+            </div>
+            <a href="#contact" class="btn btn-primary" style="width:100%;text-align:center;margin-top:1rem;">
+              <i class="fas fa-paper-plane"></i> Submit Now
+            </a>
+            <div class="submit-note">
+              <i class="fas fa-info-circle"></i>
+              All papers go through double-blind peer review by the scientific committee and external reviewers.
+            </div>
+          </div>
+
+          <div class="author-note-card">
+            <h4><i class="fas fa-exclamation-circle"></i> Important Note</h4>
+            <p>Submissions are limited to a maximum of <strong>four authors</strong>. If co-authors are attending physically, they must also register and make payment separately.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PUBLICATION ===== -->
+  <section class="section bg-purple-light" id="publication">
+    <div class="container">
+      <h2 class="section-title">Publication Opportunity</h2>
+      <p class="section-sub">Selected papers published in Atlantis Academic Press proceedings (Springer Nature)</p>
+
+      <div class="publication-layout">
+        <div class="publication-main">
+          <!-- <div class="pub-logo-wrap">
+            <img src="images/atlantis-logo.png" alt="Atlantis Press" id="atlantis-logo" class="pub-logo" />
+            <img src="https://www.amity.edu/mumbai/icract2025/images/springerlogo.png" alt="Springer Nature" id="springer-pub-logo" class="pub-logo" />
+          </div> -->
+
+          <p>
+            Selected high-quality papers presented at SMAC 2026 will be considered for publication in the conference proceedings
+            with <strong>Atlantis Academic Press</strong>, part of <strong>Springer Nature</strong>. Atlantis Press publishes
+            peer-reviewed academic conference proceedings and books across a wide range of disciplines, recognized globally for
+            disseminating high-quality scholarly research.
+          </p>
+          <p>
+            All submitted papers will undergo a rigorous <strong>double-blind peer review process</strong> conducted by the
+            conference scientific committee and external reviewers to ensure academic quality, originality, and relevance to the
+            conference theme.
+          </p>
+          <p>
+            Publications from Atlantis Academic Press are typically indexed in major scholarly databases such as
+            <strong>Scopus</strong> and <strong>Web of Science Conference Proceedings Citation Index (CPCI)</strong>, depending
+            on the specific series and indexing policies of the publisher.
+          </p>
+          <p>
+            Authors will be required to revise papers based on reviewer comments and follow the Springer Nature publication
+            template and copyright requirements before final submission.
+          </p>
+        </div>
+
+        <div class="publication-highlights">
+          <h3>Publication Highlights</h3>
+          <div class="pub-highlight-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Double-blind peer review process</span>
+          </div>
+          <div class="pub-highlight-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Atlantis Academic Press (Springer Nature)</span>
+          </div>
+          <div class="pub-highlight-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Scopus indexing (subject to publisher policy)</span>
+          </div>
+          <div class="pub-highlight-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Web of Science CPCI indexing</span>
+          </div>
+          <div class="pub-highlight-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Official conference proceedings volume</span>
+          </div>
+          <div class="pub-highlight-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Global dissemination and academic reach</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REGISTRATION ===== -->
+  <!-- <section class="section" id="registration">
+    <div class="container">
+      <h2 class="section-title">Registration</h2>
+      <p class="section-sub">All authors, presenters, and participants must register individually</p> -->
+
+      <!-- <div class="reg-grid"> -->
+        <!-- Indian Faculty -->
+        <!-- <div class="reg-card featured">
+          <div class="reg-badge-tag">Paper Presenter</div>
+          <div class="reg-header">
+            <i class="fas fa-user-tie"></i>
+            <h3>Indian Faculty / Scholar</h3>
+          </div>
+          <div class="reg-price">
+            <span class="currency">₹</span>
+            <span class="amount">5,000</span>
+            <span class="period">/paper</span>
+          </div>
+          <ul class="reg-features">
+            <li><i class="fas fa-check"></i> Paper publication in proceedings</li>
+            <li><i class="fas fa-check"></i> Conference kit &amp; certificate</li>
+            <li><i class="fas fa-check"></i> Presentation at conference</li>
+            <li><i class="fas fa-check"></i> Access to all sessions</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary" style="width:100%;text-align:center;">Register</a>
+        </div> -->
+
+        <!-- Foreign Faculty -->
+        <!-- <div class="reg-card">
+          <div class="reg-badge-tag">International Presenter</div>
+          <div class="reg-header">
+            <i class="fas fa-globe"></i>
+            <h3>Foreign Faculty / Scholar</h3>
+          </div>
+          <div class="reg-price">
+            <span class="currency">$</span>
+            <span class="amount">100</span>
+            <span class="period">/paper</span>
+          </div>
+          <ul class="reg-features">
+            <li><i class="fas fa-check"></i> Paper publication in proceedings</li>
+            <li><i class="fas fa-check"></i> Digital conference kit</li>
+            <li><i class="fas fa-check"></i> Online / Offline presentation</li>
+            <li><i class="fas fa-check"></i> Access to all sessions</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-purple" style="width:100%;text-align:center;">Register</a>
+        </div> -->
+
+        <!-- Indian Participant -->
+        <!-- <div class="reg-card">
+          <div class="reg-badge-tag">Participant</div>
+          <div class="reg-header">
+            <i class="fas fa-user-graduate"></i>
+            <h3>Indian Participant</h3>
+          </div>
+          <div class="reg-price">
+            <span class="currency">₹</span>
+            <span class="amount">2,500</span>
+            <span class="period">/person</span>
+          </div>
+          <ul class="reg-features">
+            <li><i class="fas fa-check"></i> Conference attendance</li>
+            <li><i class="fas fa-check"></i> Conference kit &amp; certificate</li>
+            <li><i class="fas fa-check"></i> Access to all sessions</li>
+            <li><i class="fas fa-check"></i> Lunch &amp; refreshments</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-purple" style="width:100%;text-align:center;">Register</a>
+        </div> -->
+
+        <!-- Foreign Participant -->
+        <!-- <div class="reg-card">
+          <div class="reg-badge-tag">International</div>
+          <div class="reg-header">
+            <i class="fas fa-passport"></i>
+            <h3>Foreign Participant</h3>
+          </div>
+          <div class="reg-price">
+            <span class="currency">$</span>
+            <span class="amount">50</span>
+            <span class="period">/person</span>
+          </div>
+          <ul class="reg-features">
+            <li><i class="fas fa-check"></i> Online conference access</li>
+            <li><i class="fas fa-check"></i> Digital certificate</li>
+            <li><i class="fas fa-check"></i> Access to all sessions</li>
+            <li><i class="fas fa-check"></i> E-conference kit</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-purple" style="width:100%;text-align:center;">Register</a>
+        </div>
+      </div>
+
+      <div class="reg-note">
+        <i class="fas fa-info-circle"></i>
+        <div>
+          <strong>Note on Co-Authors:</strong> Submissions are limited to a maximum of four authors. If co-authors are
+          attending the conference physically, each co-author must register and make payment individually. Otherwise only
+          the corresponding author needs to register.
+        </div>
+      </div> -->
+
+      <div class="reg-link-box">
+        <h3><i class="fas fa-link"></i> Registration Form</h3>
+        <p>Complete registration through the official Google Form provided by the organizing committee.</p>
+        <a href="#contact" class="btn btn-primary">
+          <i class="fas fa-external-link-alt"></i> Registration Link (to be updated)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section bg-purple-light" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <p>Conference email (to be updated)</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Venue</strong>
+              <p>Amity School of Communication<br />Amity University Mumbai<br />Bhatan, Panvel, Navi Mumbai, Maharashtra – 410206</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-user"></i>
+            <div>
+              <strong>Convener</strong>
+              <p>Prof. Rajesh Sisodia</p>
+              <p>Dr Archan Mitra</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-user-friends"></i>
+            <div>
+              <strong>Faculty Coordinator</strong>
+              <p>Mr. Mahendra Gubbala</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-btn" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <h3>Send a Message</h3>
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <input type="text" placeholder="Your Name *" required />
+              <input type="email" placeholder="Email Address *" required />
+            </div>
+            <div class="form-row">
+              <input type="text" placeholder="Affiliation / University" />
+              <input type="text" placeholder="Subject" />
+            </div>
+            <textarea placeholder="Your Message *" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message &nbsp;<i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-top-wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#1a0030"/>
+      </svg>
+    </div>
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <img src="https://www.amity.edu/mumbai/asco/images/asco.png" alt="Amity Logo" class="footer-logo" id="footer-amity-logo" />
+        <p>SMAC 2026 is organized by the Amity School of Communication, Amity University Mumbai.</p>
+        <p style="margin-top:8px;"><i class="fas fa-calendar-alt" style="color:var(--gold);"></i> &nbsp; 2nd – 3rd July 2026</p>
+        <p><i class="fas fa-map-marker-alt" style="color:var(--gold);"></i> &nbsp; Panvel, Navi Mumbai, Maharashtra</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#committee">Committee</a></li>
+          <li><a href="#callforpapers">Call for Papers</a></li>
+          <li><a href="#subthemes">Sub-Themes</a></li>
+          <li><a href="#submission">Submission Guidelines</a></li>
+          <li><a href="#publication">Publication</a></li>
+          <!-- <li><a href="#registration">Registration</a></li> -->
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Partners</h4>
+        <ul>
+          <li><a href="#">Atlantis Academic Press (Springer Nature)</a></li>
+          <li><a href="#">Towson University, Maryland USA</a></li>
+          <li><a href="#">Grand Valley State University</a></li>
+        </ul>
+        <h4 style="margin-top:20px;">Indexed In</h4>
+        <ul>
+          <li><a href="#">Scopus</a></li>
+          <li><a href="#">Web of Science CPCI</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p><i class="fas fa-envelope"></i> Conference Email (to be updated)</p>
+        <p><i class="fas fa-university"></i> Amity School of Communication<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Amity University Mumbai</p>
+        <p><i class="fas fa-map-marker-alt"></i> Panvel, Navi Mumbai, Maharashtra</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 SMAC 2026 | Amity School of Communication | Amity University Mumbai. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Back to Top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
